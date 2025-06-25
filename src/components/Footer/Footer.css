@@ -1,0 +1,130 @@
+.footer {
+  background: #333333;
+  color: #FFFFFF;
+  padding: 3rem 0 1rem;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  align-items: start;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo-img {
+  height: 80px;
+  width: auto;
+  background: #FFFFFF;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.footer-brand h3 {
+  color: #A4D65E;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.footer-brand p {
+  margin-bottom: 0.5rem;
+  color: #CCCCCC;
+}
+
+.footer-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  color: #BBBBBB;
+}
+
+.footer-contact h4 {
+  color: #A4D65E;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-contact-items {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #CCCCCC;
+  text-decoration: none;
+  padding: 0.4rem;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  width: 35px;
+  height: 35px;
+}
+
+.footer-contact-item:hover {
+  background: #A4D65E;
+  color: #333333;
+  transform: scale(1.1);
+}
+
+.footer-contact-icon {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.footer-bottom {
+  border-top: 1px solid #555555;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #AAAAAA;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    justify-content: center;
+  }
+  
+  .footer-brand {
+    text-align: center;
+  }
+  
+  .footer-contact-items {
+    justify-content: center;
+    flex-direction: row !important;
+  }
+  
+  .footer-bottom {
+    margin-top: 1rem;
+  }
+}
