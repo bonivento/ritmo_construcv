@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ritmo_construcv/static/css/main.9f4e8276.css",
+    "main.js": "/ritmo_construcv/static/js/main.96df6471.js",
+    "index.html": "/ritmo_construcv/index.html",
+    "main.9f4e8276.css.map": "/ritmo_construcv/static/css/main.9f4e8276.css.map",
+    "main.96df6471.js.map": "/ritmo_construcv/static/js/main.96df6471.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f4e8276.css",
+    "static/js/main.96df6471.js"
+  ]
+}
