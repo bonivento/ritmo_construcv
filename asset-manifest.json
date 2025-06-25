@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ritmo_construcv/static/css/main.9f4e8276.css",
-    "main.js": "/ritmo_construcv/static/js/main.6706f720.js",
+    "main.js": "/ritmo_construcv/static/js/main.b9e1387c.js",
     "index.html": "/ritmo_construcv/index.html",
     "main.9f4e8276.css.map": "/ritmo_construcv/static/css/main.9f4e8276.css.map",
-    "main.6706f720.js.map": "/ritmo_construcv/static/js/main.6706f720.js.map"
+    "main.b9e1387c.js.map": "/ritmo_construcv/static/js/main.b9e1387c.js.map"
   },
   "entrypoints": [
     "static/css/main.9f4e8276.css",
-    "static/js/main.6706f720.js"
+    "static/js/main.b9e1387c.js"
   ]
 }
