@@ -9,28 +9,28 @@ const Home = () => {
     {
       id: 'humedales-bajo-magdalena-tercera-2016',
       title: 'Conservación de humedales en el Bajo Magdalena',
-      image: process.env.REACT_APP_PROJECTS_IMAGE_1,
+      image: "https://github.com/user-attachments/assets/26c3c080-2c03-460f-9619-a2314a9fb861",
       year: '2016',
       location: 'Bajo Magdalena'
     },
     {
       id: 'programa-nuevos-territorios-paz-2012-2015',
       title: 'Programa Nuevos Territorios de Paz',
-      image: process.env.REACT_APP_PROJECTS_IMAGE_2,
+      image: "https://github.com/user-attachments/assets/cc528ca0-6517-42c4-a539-fedaa9efef19",
       year: '2012-2015',
       location: 'Bajo Magdalena'
     },
     {
       id: 'sistemas-agroforestales-montes-maria-2008-2011',
       title: 'Sistemas agroforestales en los Montes de María',
-      image: process.env.REACT_APP_PROJECTS_IMAGE_3,
+      image: "https://github.com/user-attachments/assets/11aecbf9-98f4-446f-a15e-9d278b2eb0df",
       year: '2008-2011',
       location: 'Montes de María'
     },
     {
       id: 'propuestas-ambientales-cultivos-ilicitos-2004-2007',
       title: 'Alternativas ambientales a cultivos ilícitos',
-      image: process.env.REACT_APP_PROJECTS_IMAGE_1,
+      image: "https://github.com/user-attachments/assets/26c3c080-2c03-460f-9619-a2314a9fb861",
       year: '2004-2007',
       location: 'Bolívar, Sucre y Córdoba'
     }
@@ -72,8 +72,8 @@ const Home = () => {
           </div>
           <div className="hero-image">
             <img 
-              src={process.env.REACT_APP_HERO_IMAGE} 
-              alt="Construcción moderna" 
+              src="https://github.com/user-attachments/assets/5bb1e830-aded-44f8-acba-f01de75801cd" 
+              alt="Construcvida" 
             />
           </div>
         </div>
@@ -109,7 +109,7 @@ const Home = () => {
 
       <section className="projects-carousel">
         <div className="container">
-          <h2>Nuestros Proyectos Destacados</h2>
+          <h2>Galería</h2>
           <div className="carousel-container">
             <button className="carousel-btn prev" onClick={prevProject}>
               ‹
@@ -118,19 +118,7 @@ const Home = () => {
             <div className="carousel-content">
               <div className="project-slide">
                 <div className="project-slide-image">
-                  <img src={projects[currentProject].image} alt={projects[currentProject].title} />
-                  <div className="project-slide-overlay">
-                    <div className="project-slide-info">
-                      <h3>{projects[currentProject].title}</h3>
-                      <div className="project-slide-details">
-                        <span className="project-year">{projects[currentProject].year}</span>
-                        <span className="project-location">{projects[currentProject].location}</span>
-                      </div>
-                      <Link to={`/proyecto/${projects[currentProject].id}`} className="btn btn-accent">
-                        Ver Proyecto
-                      </Link>
-                    </div>
-                  </div>
+                  <img src={projects[currentProject].image} alt="Galería Construcvida" />
                 </div>
               </div>
             </div>
@@ -148,12 +136,6 @@ const Home = () => {
                 onClick={() => setCurrentProject(index)}
               />
             ))}
-          </div>
-
-          <div className="carousel-footer">
-            <Link to="/proyectos" className="btn btn-secondary">
-              Ver Todos los Proyectos
-            </Link>
           </div>
         </div>
       </section>
