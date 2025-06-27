@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="footer-column">
             <div className="footer-logo">
               <img 
-                src={process.env.REACT_APP_LOGO_IMAGE} 
+                src="https://github.com/user-attachments/assets/706a734b-e540-4092-8d3c-1d79edef83d3" 
                 alt="Construcvida" 
                 className="footer-logo-img"
               />

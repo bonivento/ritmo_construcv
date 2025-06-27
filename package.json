@@ -2,7 +2,7 @@
   "name": "construvida",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://bonivento.github.io/ritmo_construcv",
+  "homepage": "https://construcvida.org",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

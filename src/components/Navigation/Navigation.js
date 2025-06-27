@@ -24,7 +24,7 @@ const Navigation = () => {
         <div className="nav-brand">
           <Link to="/">
             <img 
-              src={process.env.REACT_APP_LOGO_IMAGE} 
+              src="https://github.com/user-attachments/assets/706a734b-e540-4092-8d3c-1d79edef83d3" 
               alt="Construvida" 
               className="nav-logo"
             />
