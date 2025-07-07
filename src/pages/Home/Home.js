@@ -57,7 +57,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <div className="hero-text">
-            <h1><span className="highlight">Construcvida</span></h1>
+            <h1><span className="highlight">CONSTRUCVIDA</span></h1>
             <p>
               Desde el 2002 contribuyendo al desarrollo integral y la paz de Colombia
             </p>
@@ -118,7 +118,7 @@ const Home = () => {
             <div className="carousel-content">
               <div className="project-slide">
                 <div className="project-slide-image">
-                  <img src={projects[currentProject].image} alt="Galería Construcvida" />
+                  <img src={projects[currentProject].image} alt="Galería CONSTRUCVIDA" />
                 </div>
               </div>
             </div>

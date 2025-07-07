@@ -8,8 +8,9 @@ const Navigation = () => {
 
   const navItems = [
     { path: '/', label: 'Inicio' },
-    { path: '/acerca', label: 'Acerca de Construcvida' },
+    { path: '/acerca', label: 'Acerca de CONSTRUCVIDA' },
     { path: '/proyectos', label: 'Proyectos' },
+    { path: '/noticias', label: 'Noticias' },
     { path: '/requerimiento', label: 'Requerimiento Web' },
     { path: '/contactos', label: 'Contactos' }
   ];
@@ -28,7 +29,7 @@ const Navigation = () => {
               alt="Construvida" 
               className="nav-logo"
             />
-            <span className="nav-title">Construcvida</span>
+            <span className="nav-title">CONSTRUCVIDA</span>
           </Link>
         </div>
         

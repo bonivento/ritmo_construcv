@@ -1,11 +1,11 @@
 .documents-page {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 .documents-header {
   padding: 4rem 0;
-  background: linear-gradient(135deg, #0891C7 0%, #065a82 100%);
-  color: #FFFFFF;
+  background: #F5F5F5;
+  color: #333333;
   text-align: center;
 }
 
@@ -77,7 +77,7 @@
 
 .documents-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
   background: #FFFFFF;
   border-radius: 12px;
@@ -222,31 +222,78 @@
     font-size: 1rem;
   }
   
-  .category-documents {
+  .documents-list {
     grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
   }
   
   .document-card {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    padding: 1.25rem;
+  }
+  
+  .document-info {
+    width: 100%;
+  }
+  
+  .document-icon {
+    font-size: 1.8rem;
+    margin-right: 0.8rem;
+  }
+  
+  .document-details h3 {
+    font-size: 0.95rem;
+    line-height: 1.4;
   }
   
   .open-btn {
     align-self: center;
     margin-left: 0;
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
   }
   
   .documents-content {
     padding: 2rem 0;
   }
   
-  .document-category {
-    padding: 1.5rem;
-  }
-  
   .search-input {
     padding: 0.8rem 2.5rem 0.8rem 1rem;
     font-size: 0.9rem;
+  }
+  
+  .search-box {
+    margin: 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .documents-header {
+    padding: 2.5rem 0;
+  }
+  
+  .documents-header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .documents-list {
+    padding: 0.75rem;
+    margin: 0 0.5rem;
+  }
+  
+  .document-card {
+    padding: 1rem;
+  }
+  
+  .document-details h3 {
+    font-size: 0.9rem;
+  }
+  
+  .document-type {
+    font-size: 0.75rem;
   }
 }

@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="footer-logo">
               <img 
                 src="https://github.com/user-attachments/assets/706a734b-e540-4092-8d3c-1d79edef83d3" 
-                alt="Construcvida" 
+                alt="CONSTRUCVIDA" 
                 className="footer-logo-img"
               />
             </div>
@@ -18,7 +18,7 @@ const Footer = () => {
           
           <div className="footer-column">
             <div className="footer-brand">
-              <h3>Construcvida</h3>
+              <h3>CONSTRUCVIDA</h3>
               <p>Corporación Construyendo Vida</p>
               <p className="footer-description">
                 Organización de la sociedad civil comprometida con el desarrollo 
@@ -31,10 +31,10 @@ const Footer = () => {
             <div className="footer-contact">
               <h4>Contacto</h4>
               <div className="footer-contact-items">
-                <a href="mailto:info@construcvida.org" className="footer-contact-item" title="Email">
+                <a href="mailto:construcvida@gmail.com" className="footer-contact-item" title="Email">
                   <span className="footer-contact-icon">✉️</span>
                 </a>
-                <a href="tel:+573006706770" className="footer-contact-item" title="Teléfono: +(57) 300 670 6770">
+                <a href="tel:+573215642958" className="footer-contact-item" title="Teléfono: +(57) 321 564 2958">
                   <span className="footer-contact-icon">📞</span>
                 </a>
                 <a href="https://facebook.com/construcvida" target="_blank" rel="noopener noreferrer" className="footer-contact-item" title="Facebook">
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Construcvida - Corporación Construyendo Vida. Todos los derechos reservados.</p>
+          <p>&copy; 2025 CONSTRUCVIDA - Corporación Construyendo Vida. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

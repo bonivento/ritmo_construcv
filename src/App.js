@@ -8,6 +8,7 @@ import Projects from './pages/Projects/Projects';
 import ProjectPage from './components/ProjectPage/ProjectPage';
 import WebRequirements from './pages/WebRequirements/WebRequirements';
 import Contact from './pages/Contact/Contact';
+import News from './pages/News/News';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/acerca" element={<About />} />
           <Route path="/proyectos" element={<Projects />} />
           <Route path="/proyecto/:id" element={<ProjectPage />} />
+          <Route path="/noticias" element={<News />} />
           <Route path="/requerimiento" element={<WebRequirements />} />
           <Route path="/contactos" element={<Contact />} />
         </Routes>

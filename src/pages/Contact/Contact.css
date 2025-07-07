@@ -4,8 +4,8 @@
 
 .contact-header {
   padding: 4rem 0;
-  background: linear-gradient(135deg, #0891C7 0%, #065a82 100%);
-  color: #FFFFFF;
+  background: #F5F5F5;
+  color: #333333;
   text-align: center;
 }
 
@@ -157,11 +157,70 @@
   flex: 1;
 }
 
-.contact-form-container {
+.contact-message {
   background: #F5F5F5;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-message h2 {
+  color: #0891C7;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.contact-message p {
+  color: #666666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-message .btn {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.contact-message .btn-primary {
+  background: #A4D65E;
+  color: #333333;
+}
+
+.contact-message .btn-primary:hover {
+  background: #8bc34a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.contact-message .btn-secondary {
+  background: transparent;
+  color: #0891C7;
+  border: 2px solid #0891C7;
+}
+
+.contact-message .btn-secondary:hover {
+  background: #0891C7;
+  color: #FFFFFF;
+  transform: translateY(-2px);
 }
 
 .contact-form {
@@ -235,6 +294,20 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
+.btn-primary:disabled {
+  background: #CCCCCC;
+  color: #666666;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-primary:disabled:hover {
+  background: #CCCCCC;
+  transform: none;
+  box-shadow: none;
+}
+
 .map-section {
   padding: 4rem 0;
   background: #F5F5F5;
@@ -286,6 +359,23 @@
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+  
+  .contact-message {
+    padding: 2rem;
+  }
+  
+  .contact-message h2 {
+    font-size: 1.5rem;
+  }
+  
+  .contact-cta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-message .btn {
+    width: 200px;
   }
   
   .form-row {

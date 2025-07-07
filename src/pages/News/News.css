@@ -1,0 +1,158 @@
+.news {
+  padding-top: 70px;
+}
+
+.news-header {
+  padding: 4rem 0;
+  background: #F5F5F5;
+  color: #333333;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.news-header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.news-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.news-content {
+  padding: 4rem 0;
+  background: #FFFFFF;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maintenance-notice {
+  text-align: center;
+  background: #F5F5F5;
+  padding: 4rem 3rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.maintenance-icon {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.maintenance-notice h2 {
+  color: #0891C7;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.maintenance-notice > p {
+  color: #666666;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+}
+
+.maintenance-info {
+  background: #FFFFFF;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  text-align: left;
+  border-left: 4px solid #A4D65E;
+}
+
+.maintenance-info p {
+  color: #333333;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.maintenance-info ul {
+  color: #666666;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+}
+
+.maintenance-info li {
+  margin-bottom: 0.5rem;
+}
+
+.contact-cta {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: rgba(164, 214, 94, 0.1);
+  border-radius: 10px;
+}
+
+.contact-cta p {
+  color: #333333;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  background: #A4D65E;
+  color: #333333;
+  padding: 1.2rem 2.5rem;
+}
+
+.btn-primary:hover {
+  background: #8bc34a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+@media (max-width: 768px) {
+  .news-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .maintenance-notice {
+    padding: 2.5rem 2rem;
+    margin: 0 1rem;
+  }
+  
+  .maintenance-notice h2 {
+    font-size: 2rem;
+  }
+  
+  .maintenance-icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .maintenance-info {
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  
+  .contact-cta {
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+}
