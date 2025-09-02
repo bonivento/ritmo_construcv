@@ -50,7 +50,7 @@ const About = () => {
             </div>
             <div className="about-image">
               <img 
-                src={process.env.REACT_APP_ABOUT_IMAGE} 
+                src="/about-image.jpg" 
                 alt="Equipo CONSTRUCVIDA" 
               />
             </div>
@@ -63,22 +63,22 @@ const About = () => {
           <h2>Pilares Estratégicos</h2>
           <div className="values-grid">
             <div className="value-item clickable" onClick={scrollToCuadroMando}>
-              <div className="value-icon">📊</div>
+              <div className="value-icon"></div>
               <h3>Cuadro de Mando Integral</h3>
               <span className="click-hint">Hacer clic para ir a la sección</span>
             </div>
             <div className="value-item clickable" onClick={openMapPopup}>
-              <div className="value-icon">🗺️</div>
+              <div className="value-icon"></div>
               <h3>Mapa Estratégico</h3>
               <span className="click-hint">Hacer clic para ver el mapa</span>
             </div>
             <div className="value-item clickable" onClick={scrollToStrategicAxes}>
-              <div className="value-icon">⚡</div>
+              <div className="value-icon"></div>
               <h3>Ejes Estratégicos</h3>
               <span className="click-hint">Hacer clic para ir a la sección</span>
             </div>
             <div className="value-item clickable" onClick={openOrgChartPopup}>
-              <div className="value-icon">🏛️</div>
+              <div className="value-icon"></div>
               <h3>Estructura Institucional</h3>
               <span className="click-hint">Hacer clic para ver el organigrama</span>
             </div>

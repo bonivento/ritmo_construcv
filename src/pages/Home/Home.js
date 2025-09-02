@@ -84,23 +84,23 @@ const Home = () => {
           <h2>Nuestros Servicios</h2>
           <div className="services-grid">
             <div className="service-card">
-              <div className="service-icon">📋</div>
+              <div className="service-icon"></div>
               <h3>Asesorías</h3>
             </div>
             <div className="service-card">
-              <div className="service-icon">🎯</div>
+              <div className="service-icon"></div>
               <h3>Consultorías Especializadas</h3>
             </div>
             <div className="service-card">
-              <div className="service-icon">🤝</div>
+              <div className="service-icon"></div>
               <h3>Acompañamiento en Procesos Organizacionales</h3>
             </div>
             <div className="service-card">
-              <div className="service-icon">⚙️</div>
+              <div className="service-icon"></div>
               <h3>Ejecución de Proyectos</h3>
             </div>
             <div className="service-card">
-              <div className="service-icon">🔬</div>
+              <div className="service-icon"></div>
               <h3>Proyectos de Ciencia y Tecnología</h3>
             </div>
           </div>
